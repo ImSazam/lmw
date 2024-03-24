@@ -1,0 +1,116 @@
+body {
+    background-color:#EDEFEE;
+    font-family: 'Markazi Text', Serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+     font-size: 3rem;
+     text-align: center;
+     color: gold;
+     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header > img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 50%;
+    
+}
+
+nav {
+    background-color: rgb(45, 45, 45);
+    padding: 1px 100px;
+    border-radius: 40px;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}
+
+section {
+    display: flex;
+    
+}
+article {
+    flex: 1;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    max-width: 15%;
+    margin-left: auto;
+}
+footer {
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+.ads-picture{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url('ads.jpg'); /* Replace 'your-image-url.jpg' with your actual image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.ads-picture h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu h2 {
+    background-image: url('satay.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 20%px; 
+    padding-top: 50%;
+}
+
+.book h2 {
+        background-image: url('table.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-left: 20px; 
+        padding-top: 50%;
+    }
+    .OpeningHour h2 {
+        background-image: url('cooking.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-left: 20px; 
+        padding-top: 50%;
+    }
+
